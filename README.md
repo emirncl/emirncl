@@ -1,5 +1,6 @@
 - 👋 Hi, I’m @emirncl 
-- 🌱I am a student and I am trying to learn. I am researching.
+- 🌱I am a student and Im learning...
+-  I am researching.
 -
 -
 
