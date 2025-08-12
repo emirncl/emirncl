@@ -155,9 +155,9 @@ h1>p -- sonrasında TAB şu işlemi yapar
             -----------------------------------------------------         
 -->
 
-
+           <br>       <!-- <br> ifadesi ifadenin yan yana yazılmaması için konulmuştur.Bir alt satıra geçer  -->
             
-     
+            
             <ul>
                 <li>
                    <a href="https://www.google.com/"target = "_black">
@@ -214,4 +214,50 @@ h1>p -- sonrasında TAB şu işlemi yapar
 
 
 
+                <!-- EXCERCİSE 7 
+                 BLOK ELEMENTLER VE İNLİNE ELEMENTLER İLE ÇALIŞMAK
+                 -->
+               <!--  HTML’de blok elementler, sayfada tam genişlik kaplayan ve her zaman yeni satırdan başlayan elementlerdir.
+                📍 Özellikleri:
+                Yeni satırdan başlar.
+                Bulunduğu satırı tamamen kaplar (100% genişlik).
+                İçinde başka blok veya inline elementler barındırabilir.
+                -->
+                <!--
+                Inline elementler, sadece içeriklerinin kapladığı alan kadar yer tutar ve yeni satır başlatmaz.
+                📍 Özellikleri:
+                Aynı satırda başka elementlerle yan yana durabilir.
+                Genişlik ve yükseklik özellikleri genelde içerik boyutuyla sınırlıdır.
+                Blok element içinde bulunabilir, ancak blok element oluşturmaz.
+                -->
+                 <p>
+                    Lorem, <em>ipsum </em> dolor. 
+                    <br>                                              <!-- burada em,ipsum metninin italik olarak yazmıştır.-->
+                    Lorem  <strong> ipsum </strong> dolor sit amet.   <!-- burada strong, ipsum metnini diğerlerinden daha koyu bir şekilde görülmesini sağladı.-->
+                 </p>
 
+
+                                                                        <!-- https://htmlreference.io/-->
+                
+                  <!-- div yapısı,blok oluşturulmak için kullanılır. (KUTU GİBİ DÜŞÜN)
+                   etiketi, web sayfasında bölüm (container) oluşturmak için kullanılan, en temel ve en yaygın yapı taşlarından biridir.
+                   Kelime anlamı “division” (bölüm) demektir.
+                   1. Ne İşe Yarar?
+                   İçeriği gruplamak: Metin, resim, link, form gibi öğeleri bir araya getirip tek bir blok olarak düzenlemenizi sağlar.
+                   Tasarım yapmak: CSS ile birlikte kullanıldığında, bu gruplara arka plan rengi, kenar boşluğu, hizalama gibi görsel stiller verilir.
+                   Düzeni kontrol etmek: Web sayfasında düzeni satır satır, blok blok oluşturmak için kullanılır.
+                  JavaScript ile işleme almak: Bir div’e id veya class vererek, JavaScript kodlarıyla o bölümü hedefleyip değiştirebilirsiniz -->
+
+
+                  <!--  <span> yapısı (HAYALİ KUTU GİBİ DÜŞÜN), küçük metin parçalarını veya içerikleri satır içinde (inline) gruplamak için kullanılan bir etikettir.
+                    Inline elementtir → yani yeni satır açmaz, bulunduğu satır içinde kalır.
+                    Anlam katmaz, tamamen stil (CSS) veya JavaScript ile işlem yapmak için kullanılır.
+                    Metnin sadece belirli bir kısmına renk, yazı tipi, arka plan gibi özel stil vermek için idealdir.-->
+
+                    <p>
+                        span:
+                        Lorem ipsum dolor <strong> sit</strong> amet Lorem, ipsum <span style="color:red">dolor.</span>Lorem, ipsum dolor.
+                    </p>
+                                                                    
+                     <!-- div ne zaman kullanılacak ? belli yapıları bir araya getirmek için kullanılacak.
+                          span ne zaman kullanılacak ? sadece bir yerde özellik vermem lazım ve başka özelliklerin de değişmesini istemiyorum,o zaman span kullanılacak.-->
