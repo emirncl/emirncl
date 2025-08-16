@@ -1,0 +1,308 @@
+<!--  EXERCİSE 1
+<h1> Emir Öncel</h1>
+<h2> Hakkimda </h2> 
+<p> Merhaba bu benim ilk HTML çalişmasi denemem </p>
+<h2> Sevdiğim Diziler </h2>
+<h3> Star Trek </h3>
+<p> Uzay Yolu ........ </p>
+<p> Bu dizide en çok ilgimi çeken şey ...... </p>
+ aciklama yazildi -->
+
+
+<!--   EXERCİSE 2
+
+<p> This is a paragraph.</p>
+<h1> H1 BAŞLIK </h1>
+<h2> H2 BAŞLIK </h2>
+<h3> H3 BAŞLIK </h3>
+<h4> H4 BAŞLIK </h4>
+<h5> H5 BAŞLIK </h5>
+<h6> H6 BAŞLIK </h6>  
+                    -->
+
+
+<!--     EXERCİSE 3    
+ Sıralı listeler
+<ol type ="a">                     ORDER LİST(SIRALI LİSTE) = OL
+    <li> Javascript</li>           LİST İTEM = Lİ
+    <li> c# </li>
+    <li> Php</li>  
+</ol> 
+                    -->
+<!--Sırasız listeler               UNORDER LİST(SIRASIZ LİSTE) = UL
+<ul> 
+    <li> Çay</li>
+    <li> Türk Kahvesi</li>
+    <li> Süt</li>
+</ul>               -->
+
+<!--  Liste elemanlarının başındaki içi dolu daireyi silmek için
+<ul style="list-style-type:none">
+  <li>Çay</li>
+  <li>Türk Kahvesi</li>
+  <li>Süt</li>
+</ul>               -->
+
+
+ <!--değiştirmek için ise disc, square, circle
+<ul style="list-style-type:square">
+  <li>Telefon</li>
+  <li>Bilgisayar</li>
+  <li>Yazıcı</li>
+</ul>   
+            -->
+
+<!--      EXERCİSE 4 EMMET İLE DAHA HIZLI HTML YAPILARI (TAB) 
+
+  h1+h2+p+h3+h4+ ---ifadesinin çıktısı aşağıdadır---
+<h1></h1>
+<h2></h2>
+<p></p>
+<h3></h3>
+<h4></h4>
+<p></p> 
+-->
+
+<!--
+h1>p -- sonrasında TAB şu işlemi yapar
+<h1>
+    <p></p>
+</h1>
+-->
+
+<!--                ! + TAB ile oluşan yapı
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   </head>
+   <body>
+    
+   </body>
+   </html>
+
+   -->
+   
+<!--
+   <ol>                ---- ol>li + TAB ile oluşan yapı -----
+    <ol type ="a"></ol>
+    <li> çay</li>
+    <li> sigara </li>
+    <li> kahve </li>
+    <li> makarna </li>
+
+    
+   </ol>
+   
+  <h3 class = "deneme"> Lor</h3>
+  <h3 id = "idolussun"> Lorem.</h3>
+  <ul class="deneme"> meyve</ul>
+    -->
+  
+      <!--EXERCİSE 5 GÖRSELLERLE ÇALIŞMAK
+      img + TAB ile şu yapı karşımıza gelir
+      <img src="" alt="">
+      src source(kaynak demektir) Tarayıcıya resmin nereden yükleneceğini söyler.
+      Değeri, bir dosya yolu ya da URL olabilir
+      Eğer src boş bırakılırsa (src=""), resim yüklenmez ve tarayıcı hata simgesi gösterebilir.
+      alt(alternative text demektir)  Resim yüklenemezse ekran okuyucular ve tarayıcı bu metni gösterir.
+      Erişilebilirlik (accessibility) açısından çok önemlidir.
+      Görme engelli kullanıcılar ekran okuyucu ile bu metni duyar.
+      
+      
+
+      
+      <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Game-Pass-APR-2025?wid=406&hei=230&fit=crop" alt="Microsoft Görseli">
+      <img src="https://picsum.photos/200" alt="rastgele lorem pictures"> 
+      <img src="images/images.jpeg" alt="walpper">  index.html klasörümüzün içerisine yüklemek istediğimiz resmi manuel yükledik ve resmi kaydettiğimiz isim ile buradan ekrana yansıttık
+      <img width="200" height="300" src="https://picsum.photos/200" alt="rastgele lorem pictures"> height = yükseklik,width = genislik (bu şekilde genislik ve yükseklik manuel olarak girilebiliyor)
+      <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Game-Pass-APR-2025?wid=406&hei=230&fit=crop" alt="Microsoft Görseli" title = "image"> (Title özelliği kullanıcıyı bilgilendirme amacı taşır. Cursor(mouse imleci) ile görselin üzerine gelince bu özelliğe verilen text mesajı görünür. Ek açıklama gerektirecek resimlerde kullanabiliriz. Bilgilendirme amacı taşır.)
+      
+
+      RESİM,LİNK'İN TIKLANABİLİR KISMI
+      <a href="https://x.com/home">
+  <img src="images/images.jpeg" alt="HTML tutorial" style="width:100px;height:100px;" title="RESİM "> Bu kod, sayfada 100x100 boyutunda bir gülümseme resmi gösterir. Kullanıcı bu resme tıklarsa https://x.com/home sayfasına yönlendirilir.
+
+</a>
+
+-----------------------------------------------------------
+<a> ile <img> arasında yazılan her şey tıklanabilir olur.
+
+
+            LİNKLERLE ÇALIŞMAK EXERCİSE 6  
+            a + TAB işlemi şunu yapar;
+            <a href="">
+                tıklanılabilir olan metindir bu.Gidilecek sayfayı,tırnak arasına koyarız. Örneğin şu şekilde
+            </a>
+            ---------------------------------------
+            
+            <a href="https://www.google.com/">
+               Googleye Gitmek İçin Lütfen Tıklayınız (bu işlem gidilmek istenen sayfayı o pencerede açar)
+            </a>
+            ------------------
+
+            <a href="https://x.com/home" target="_blank">   (burada target = "_blank" işlemi,açılan sayfayı ek bir pencere olarak açar)
+             Tıklayınız
+
+            </a>
+            --------------------------------------
+
+             <a href="iletisim.html">       (Burada sayfamızın içinde tıklanılan bir text,yine sayfamızın başka bir bölümüne yönlendiriliyor)
+             İLETİSİM SAYFASINA GİT
+            </a>
+            -----------------------------------------------------         
+-->
+
+           <br>       <!-- <br> ifadesi ifadenin yan yana yazılmaması için konulmuştur.Bir alt satıra geçer  -->
+            
+            
+            <ul>
+                <li>
+                   <a href="https://www.google.com/"target = "_blank">
+                    GOOGLEYE GİT
+            </a> 
+                </li>
+                <li>
+                    <a href="iletisim.html">       
+                        İLETİSİM SAYFASINA GİT
+            </a>    
+                </li>
+                <li>
+                    <a href="#footer">          <!-- burada # ifadesi çok önemliydi. bu işaret ile 'footer' in bir id olduğunu,ve bu id içindeki bilgi oldugunu tanımladık.(HTML’de id, bir etikete (örneğin <h2>, <div>, <p> gibi) benzersiz bir kimlik verir.
+                                                Yani bu, o elementin adı gibi düşün.Mesela okulda her öğrencinin bir numarası olur; HTML’de de her elementin bir id numarası olabilir (ama kelimelerle).) -->
+                                                
+                        En Alt Kısma GİT
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:emiröncel@gmail.com">
+                        Bize Mail İle Ulaşın</a>
+                </li>
+                <li>
+                    <a href="tel:0555555555">
+                        Bize Telefon İle Ulaşın
+                    </a>
+                </li>
+            </ul>
+
+
+            <a href="https://www.google.com/">
+                <img src="https://picsum.photos/200" alt="">
+            </a>
+            <br>
+            <a href="https://www.google.com/">
+                <img src="https://picsum.photos/200" alt="">
+            </a>
+            <br>
+            <a href="https://www.google.com/">
+                <img src="https://picsum.photos/200" alt="">
+            </a>
+            <br>
+            
+
+
+
+
+
+
+
+            <h2 id = "footer">En Alt Kısım</h2>
+
+            
+
+
+
+                <!-- EXCERCİSE 7 
+                 BLOK ELEMENTLER VE İNLİNE ELEMENTLER İLE ÇALIŞMAK
+                 -->
+               <!--  HTML’de blok elementler, sayfada tam genişlik kaplayan ve her zaman yeni satırdan başlayan elementlerdir.
+                📍 Özellikleri:
+                Yeni satırdan başlar.
+                Bulunduğu satırı tamamen kaplar (100% genişlik).
+                İçinde başka blok veya inline elementler barındırabilir.
+                -->
+                <!--
+                Inline elementler, sadece içeriklerinin kapladığı alan kadar yer tutar ve yeni satır başlatmaz.
+                📍 Özellikleri:
+                Aynı satırda başka elementlerle yan yana durabilir.
+                Genişlik ve yükseklik özellikleri genelde içerik boyutuyla sınırlıdır.
+                Blok element içinde bulunabilir, ancak blok element oluşturmaz.
+                -->
+                 <p>
+                    Lorem, <em>ipsum </em> dolor. 
+                    <br>                                              <!-- burada em,ipsum metninin italik olarak yazmıştır.-->
+                    Lorem  <strong> ipsum </strong> dolor sit amet.   <!-- burada strong, ipsum metnini diğerlerinden daha koyu bir şekilde görülmesini sağladı.-->
+                 </p>
+
+
+                                                                        <!-- https://htmlreference.io/-->
+                
+                  <!-- div yapısı,blok oluşturulmak için kullanılır. (KUTU GİBİ DÜŞÜN)
+                   etiketi, web sayfasında bölüm (container) oluşturmak için kullanılan, en temel ve en yaygın yapı taşlarından biridir.
+                   Kelime anlamı “division” (bölüm) demektir.
+                   1. Ne İşe Yarar?
+                   İçeriği gruplamak: Metin, resim, link, form gibi öğeleri bir araya getirip tek bir blok olarak düzenlemenizi sağlar.
+                   Tasarım yapmak: CSS ile birlikte kullanıldığında, bu gruplara arka plan rengi, kenar boşluğu, hizalama gibi görsel stiller verilir.
+                   Düzeni kontrol etmek: Web sayfasında düzeni satır satır, blok blok oluşturmak için kullanılır.
+                  JavaScript ile işleme almak: Bir div’e id veya class vererek, JavaScript kodlarıyla o bölümü hedefleyip değiştirebilirsiniz -->
+
+
+                  <!--  <span> yapısı (HAYALİ KUTU GİBİ DÜŞÜN), küçük metin parçalarını veya içerikleri satır içinde (inline) gruplamak için kullanılan bir etikettir.
+                    Inline elementtir → yani yeni satır açmaz, bulunduğu satır içinde kalır.
+                    Anlam katmaz, tamamen stil (CSS) veya JavaScript ile işlem yapmak için kullanılır.
+                    Metnin sadece belirli bir kısmına renk, yazı tipi, arka plan gibi özel stil vermek için idealdir.-->
+
+                    <p>
+                        span:
+                        Lorem ipsum dolor <strong> sit</strong> amet Lorem, ipsum <span style="color:red">dolor.</span>Lorem, ipsum dolor.
+                    </p>
+                                                                    
+                     <!-- div ne zaman kullanılacak ? belli yapıları bir araya getirmek için kullanılacak.
+                          span ne zaman kullanılacak ? sadece bir yerde özellik vermem lazım ve başka özelliklerin de değişmesini istemiyorum,o zaman span kullanılacak.-->
+
+
+
+                    <!-- !!!!!! id ve class yapısı unutulmaması gereken önemli yapılardır.!!!!!!-->
+
+
+
+                    <!--  EXERCİSE 8 SEMANTİC HTML ELEMENTS -->
+
+                    <!-- Hyper Text Markup Language(HTML),Genel bilinen yanlış kanının aksine HTML bir programlama dili değildir.Daha açık anlatmak gerekirse, Chrome, Firefox, Yandex gibi tarayıcıların okuyup anlamlandırdığı dil HTML dilidir.-->
+                    <!-- HTML iskeleti nedir? Bu yapı,sitedeki ikon bilgisini,hangi dilde oluşturulduğunu vb. bilgileri barındırır.-->
+                    <!-- Bir HTML iskeleti nasıl oluşturulur ?   ( ! + TAB ) -->
+                
+                    <!DOCTYPE html>
+                    <html lang="tr"> <!-- Sitenin Dili-->
+                    <head>
+                    <meta charset="UTF-8">  <!-- Türkçe utf-8-->
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Site ilk açıldığında nasıl açılır bilgisi verilir.-->
+                    <title>Project1</title> <!--Başlık Kısmıdır Sekmeler Listesinde gözükür.-->
+                    </head>   <!-- HTML iskeletinde <head> kısmı, web sayfasının arka planda çalışan ve tarayıcıya bilgi veren bölümüdür. Yani buradaki içerikler doğrudan sayfada görünmez, ama sayfanın nasıl çalışacağını ve nasıl görüneceğini belirler. CSS dosyaları veya JavaScript dosyaları eklemek (<link> ve <script> etiketleri). -->    
+                    <body> 
+                    <!-- Bu kısım (<body>  </body>)  Sürekli olarak çalışacağımız ve bugüne kadar yaptığımız bütün içeriklerin olması gereken kısımdır-->
+
+                    </body>
+                    </html>
+
+                    <!-- ✅ Sık Kullanılan Semantic Etiketler
+
+                        <header> → Sayfa veya bölümün başlık kısmı
+                        <nav> → Menü veya gezinme bağlantıları
+                        <main> → Sayfanın ana içeriği
+                        <section> → Mantıksal içerik bölümü
+                        <article> → Bağımsız bir makale, yazı, blog gönderisi
+                        <aside> → Yan içerik (reklam, ek bilgi, kenar çubuğu)
+                        <footer> → Alt bilgi kısmı
+                        <figure> ve <figcaption> → Görsel ve açıklaması
+                        <mark> → Önemli veya vurgulanan metin
+                    -->
+                            
+                    <!--    https://docs.emmet.io/cheat-sheet/     Emmet Kısayolları İncelenmeli!!!! -->
+                        
+
+
+                     
+                     
