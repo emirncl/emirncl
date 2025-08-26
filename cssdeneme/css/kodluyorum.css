@@ -1,0 +1,89 @@
+/* CSS de açıklama satırı bu şekilde oluşur.*/
+
+body {
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2,h3,h4,h5,h6 { 
+    text-align: center;
+   color: darkgreen; 
+}
+
+h2 {
+    color: rgb(255, 94, 0);
+    font-size: 34px;
+    text-transform: uppercase; /*h2 ile yazılan her metin büyük harf olacak*/ 
+}
+p {
+    text-align: center;
+}
+ul {
+    list-style-position: inside;
+      text-align: center;
+}
+/* CSS de class oluşturmak için, örneğin text-red classı oluşturacağız.Yapı şu şekildedir;
+    .text-red{} */
+/* CSS de ID oluşturmak için, #id-bilgisi{} yapısı kullanılır*/
+#first-article{
+    color: darkblue;
+}
+ol {
+    text-align: center;
+}
+
+
+
+.text-red {   /* text-red class'ı oluşturuldu*/
+    color:red;
+}
+
+.clear{
+    clear:both
+}
+
+.container{
+    width: 1000px;
+}
+.left-bar {
+    width: 200px;
+    float: left;
+}
+.content{
+    width: 800px;
+    float: left;
+}
+.fs-14{
+    font-size: 14px;
+}
+
+.card{
+    width: 23%;
+    float: left;
+    padding: 5%;
+    margin-right: auto;
+    background-color: brown;
+    
+
+}
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-30{
+    font-size: 30px;
+}
+
+.img {
+    width: 100;
+    height: 100;
+}
+
+.box{
+    background-color: rgb(181, 132, 68);
+    width: 300px;
+    height: 300px;
+    margin-left: 5px;
+    float: left; 
+    /* border radius (kutuları şekillendirir*/ 
+    
+}
