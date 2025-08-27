@@ -1,0 +1,94 @@
+.beyazbutton { 
+    width: 300px;              /* genişlik */
+    height: 30px;              /* yükseklik */
+    border: 1px solid #ccc;    /* gri çerçeve */
+    border-radius: 4px;        /* hafif köşeleri yuvarla */
+    background-color: #fff;    /* beyaz arka plan */
+    margin: 10px auto;         /* ortalama */
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1); /* iç gölge efekti */
+
+}
+.beyazbutton2 { 
+    width: 300px;              /* genişlik */
+    height: 40px;              /* yükseklik */
+    border: 1px solid #ccc;    /* gri çerçeve */
+    border-radius: 4px;        /* hafif köşeleri yuvarla */
+    background-color: #fff;    /* beyaz arka plan */
+    margin: 10px auto;         /* ortalama */
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1); /* iç gölge efekti */
+
+}
+img {
+    display: block;
+    margin-left: auto;    /* Otomatik boşluk bırakır */
+    margin-right: auto;
+}
+.search {
+    background-color: rgb(196, 193, 193);
+    color: black;
+    text-align: center;
+    
+}
+.arama { 
+    display: inline-block;
+    padding: 10px 24px;       /* iç boşluk (padding) */
+    border: 1px solid #dadce0;
+    border-radius: 4px;       /* köşeleri yuvarla */
+    background-color: #f8f9fa;
+    color: #202124;
+    font-size: 14px;
+    margin: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+.lucky {
+    display: inline-block;
+    padding: 10px 24px;       /* iç boşluk (padding) */
+    border: 1px solid #dadce0;
+    border-radius: 4px;       /* köşeleri yuvarla */
+    background-color: #f8f9fa;
+    color: #202124;
+    font-size: 14px;
+    margin: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.secenekler1 {
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    background-color: rgb(76, 156, 156);
+    float: right;
+    
+}
+.secenekler2 {
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    background-color: rgb(82, 124, 124);
+    float: left;
+}
+.secenekler3 {
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(37, 72, 72);
+    margin-right: 5px;
+    float: right;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 5px;
+}
+
+.arama3 {
+    display: inline-block;
+    padding: 10px 24px;       /* iç boşluk (padding) */
+    border: 5px solid #7c7b7b;
+    border-radius: 4px;       /* köşeleri yuvarla */
+    background-color: #f8f9fa;
+    color: #202124;
+    font-size: 10px;
+    float: left;
+    
+}
